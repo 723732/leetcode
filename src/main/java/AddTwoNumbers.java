@@ -37,7 +37,7 @@ public class AddTwoNumbers {
         return l;
     }
 
-    public  ListNode addTwoNumbers(ListNode l1, ListNode l2){
+    public  ListNode addTwoNumbers1(ListNode l1, ListNode l2){
 
         long a = nodeToLong(l1);
         long b = nodeToLong(l2);
@@ -47,6 +47,55 @@ public class AddTwoNumbers {
 
         return L;
 
+    }
+
+    public ListNode addTwoNumbers2(ListNode l1, ListNode l2){
+
+        ListNode l = new ListNode(-1);
+        l.next = null;
+        ListNode temp = l;
+        int num = 0;
+
+        while(l1 != null || l2 != null){
+            ListNode cnext = new ListNode(-1);
+            cnext.next = null;
+
+            if(l1 != null && l2 == null){
+                cnext.val = l1.val + num;
+                l1 = l1.next;
+            }
+            else if(l1 == null && l2 != null){
+                cnext.val = l2.val + num;
+                l2 = l2.next;
+            }
+            else if(l1 != null && l2 != null){
+                cnext.val = l1.val + l2.val + num;
+                l1 = l1.next;
+                l2 = l2.next;
+            }
+
+            if(cnext.val > 9){
+                num = 1;
+                cnext.val = cnext.val%10;
+            }
+            else
+                num = 0;
+
+            temp.val = cnext.val;
+
+            //结尾，只要有一个不为空就会产生下一个；如果两个都为空，分两种情况，两个都为空无进位，不产生下一个，两个都为空有进位，产生下一个val为1
+            if(l1 != null || l2 != null){
+                temp.next = cnext;
+                temp = temp.next;
+            }
+
+            if(l1 == null && l2 == null && num > 0){
+                temp.next = cnext;
+                temp.next.val = 1;
+            }
+        }
+
+        return l;
     }
 }
 //思路：1.先从链表中读出转化为整数再相加，结果再存入链表；

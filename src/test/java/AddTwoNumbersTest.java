@@ -3,12 +3,12 @@ import org.junit.Test;
 
 public class AddTwoNumbersTest {
 
-    int[] a = {1,9,9,9,9,9,9,9,9,9,9};
+    int[] a = {1,9};
     ListNode l1 = new ListNode(a[0]);
     ListNode l = l1;
 
     @Test
-    public void addTwoNumbers() {
+    public void addTwoNumbers1() {
 
         for(int i = 1; i < a.length; i++){
             ListNode next = new ListNode(a[i]);
@@ -20,7 +20,7 @@ public class AddTwoNumbersTest {
         ListNode l2 = new ListNode(9);
 
         AddTwoNumbers a = new AddTwoNumbers();
-        ListNode b = a.addTwoNumbers(l1, l2);
+        ListNode b = a.addTwoNumbers2(l1, l2);
 
         while(b != null){
             System.out.println(b.val);
