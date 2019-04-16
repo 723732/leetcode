@@ -1,3 +1,4 @@
+import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -20,7 +21,7 @@ public class Num5Test {
         assertEquals("", no5.longestPalindrome(s2));
         assertEquals("a", no5.longestPalindrome(s4));
         assertEquals("bcb", no5.longestPalindrome(s5));
-        System.out.println(no5.longestPalindrome(s6));
+//        System.out.println(no5.longestPalindrome(s6));
     }
 
     @Test
@@ -28,5 +29,16 @@ public class Num5Test {
         assertEquals("dabab", no5.reverseString(s1));
         assertEquals("", no5.reverseString(s2));
         assertEquals("a", no5.reverseString(s4));
+    }
+
+
+    @Test
+    public void longestPalindrome1() {
+//        assertEquals("bab", no5.longestPalindrome1(s1));
+//        assertEquals("bb", no5.longestPalindrome1(s3));
+//        assertEquals("", no5.longestPalindrome1(s2));
+//        assertEquals("a", no5.longestPalindrome1(s4));
+        assertEquals("bcb", no5.longestPalindrome1(s5));
+//        System.out.println(no5.longestPalindrome1(s6));
     }
 }
