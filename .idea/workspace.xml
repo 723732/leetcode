@@ -6,7 +6,17 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d482d40a-e27f-4c89-8147-91c14fcf0a1d" name="Default Changelist" comment="" />
+    <list default="true" id="d482d40a-e27f-4c89-8147-91c14fcf0a1d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/junitgenerator-prj-settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Num6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Num6Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Num5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Num5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Num5Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Num5Test.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/../takeaway/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,6 +24,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -24,23 +37,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/TwoSum.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Num5Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="66" selection-start-line="6" selection-start-column="8" selection-end-line="15" selection-end-column="66" />
+            <state relative-caret-position="44">
+              <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Num6.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TwoSumTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Num6Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            <state relative-caret-position="221">
+              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#219#220#0" expanded="true" />
+                <element signature="e#240#241#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Num5.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="56" column="8" selection-start-line="56" selection-start-column="8" selection-end-line="57" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Num4.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="58" column="9" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -50,12 +94,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../takeaway" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -65,26 +110,73 @@
         <option value="$PROJECT_DIR$/src/main/TwoSum.java" />
         <option value="$PROJECT_DIR$/src/test/java/TwoSumTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/TwoSum.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Num5Test1.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Num5Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Num5.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Num6Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Num6.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="241" />
     <option name="y" value="316" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
@@ -95,8 +187,8 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.50229883" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="project.structure.side.proportion" value="0.17586207" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -122,39 +214,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TwoSumTest.twoSum1">
-    <configuration name="All in leetcode (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in leetcode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in takeaway (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="takeaway" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in takeaway" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="takeaway" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Num6Test.convert">
     <configuration name="LoggerTest.test1" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="takeaway" />
       <extension name="coverage">
@@ -166,6 +226,46 @@
       <option name="PACKAGE_NAME" value="com.liu" />
       <option name="MAIN_CLASS_NAME" value="com.liu.LoggerTest" />
       <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Num5Test1.longestPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Num5Test1" />
+      <option name="METHOD_NAME" value="longestPalindrome" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Num5Test.longestPalindrome1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Num5Test" />
+      <option name="METHOD_NAME" value="longestPalindrome1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Num5Test.reverseString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Num5Test" />
+      <option name="METHOD_NAME" value="reverseString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Num6Test.convert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Num6Test" />
+      <option name="METHOD_NAME" value="convert" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -190,11 +290,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Num6Test.convert" />
+        <item itemvalue="JUnit.Num5Test.longestPalindrome1" />
+        <item itemvalue="JUnit.Num5Test.reverseString" />
+        <item itemvalue="JUnit.Num5Test1.longestPalindrome" />
         <item itemvalue="JUnit.TwoSumTest.twoSum1" />
-        <item itemvalue="JUnit.All in leetcode (1)" />
-        <item itemvalue="JUnit.All in leetcode" />
-        <item itemvalue="JUnit.All in takeaway (1)" />
-        <item itemvalue="JUnit.All in takeaway" />
       </list>
     </recent_temporary>
   </component>
@@ -214,41 +314,45 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_takeaway_(1) - 2019.03.29 at 17h 11m 17s.xml">
-      <configuration name="All in takeaway (1)" configurationId="JUnit" />
+    <history-entry file="Num6Test_convert - 2019.04.23 at 14h 10m 19s.xml">
+      <configuration name="Num6Test.convert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoggerTest_test1 - 2019.03.29 at 17h 14m 19s.xml">
-      <configuration name="LoggerTest.test1" configurationId="JUnit" />
+    <history-entry file="Num6Test_convert - 2019.04.23 at 14h 10m 31s.xml">
+      <configuration name="Num6Test.convert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoggerTest_test1 - 2019.03.29 at 17h 27m 56s.xml">
-      <configuration name="LoggerTest.test1" configurationId="JUnit" />
+    <history-entry file="Num6Test_convert - 2019.04.23 at 14h 11m 50s.xml">
+      <configuration name="Num6Test.convert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoggerTest_test1 - 2019.03.29 at 17h 35m 05s.xml">
-      <configuration name="LoggerTest.test1" configurationId="JUnit" />
+    <history-entry file="Num6Test_convert - 2019.04.23 at 14h 12m 00s.xml">
+      <configuration name="Num6Test.convert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoggerTest_test1 - 2019.03.29 at 17h 43m 21s.xml">
-      <configuration name="LoggerTest.test1" configurationId="JUnit" />
+    <history-entry file="Num6Test_convert - 2019.04.23 at 14h 14m 13s.xml">
+      <configuration name="Num6Test.convert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TwoSumTest_twoSum1 - 2019.03.30 at 15h 30m 57s.xml">
-      <configuration name="TwoSumTest.twoSum1" configurationId="JUnit" />
+    <history-entry file="Num6Test_convert - 2019.04.23 at 14h 14m 21s.xml">
+      <configuration name="Num6Test.convert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TwoSumTest_twoSum1 - 2019.03.30 at 15h 32m 59s.xml">
-      <configuration name="TwoSumTest.twoSum1" configurationId="JUnit" />
+    <history-entry file="Num6Test_convert - 2019.04.23 at 14h 14m 29s.xml">
+      <configuration name="Num6Test.convert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TwoSumTest_twoSum1 - 2019.03.30 at 15h 33m 24s.xml">
-      <configuration name="TwoSumTest.twoSum1" configurationId="JUnit" />
+    <history-entry file="Num6Test_convert - 2019.04.23 at 14h 15m 28s.xml">
+      <configuration name="Num6Test.convert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TwoSumTest_twoSum1 - 2019.03.30 at 15h 39m 20s.xml">
-      <configuration name="TwoSumTest.twoSum1" configurationId="JUnit" />
+    <history-entry file="Num6Test_convert - 2019.04.23 at 14h 24m 38s.xml">
+      <configuration name="Num6Test.convert" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Num6Test_convert - 2019.04.23 at 14h 24m 50s.xml">
+      <configuration name="Num6Test.convert" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="14103000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="52" y="-11" width="1869" height="1092" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18286656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -258,19 +362,19 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.44143167" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27522936" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3343527" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32925585" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.22017354" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.21916412" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.09544469" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.21916412" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -326,76 +430,78 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../takeaway" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Num5Test.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Num6Test.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../takeaway/src/main/resources/logback-spring.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../takeaway/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../takeaway/src/main/resources/logback-spring.xml" />
+    <entry file="file://$PROJECT_DIR$/../takeaway/src/main/resources/application.yml" />
     <entry file="file://$PROJECT_DIR$/../takeaway/src/main/main.iml" />
-    <entry file="file://$PROJECT_DIR$/../takeaway/src/main/java/com/liu/VO/ProductInfoVO.java">
+    <entry file="file://$PROJECT_DIR$/../takeaway/src/main/java/com/liu/VO/ProductInfoVO.java" />
+    <entry file="file://$PROJECT_DIR$/../takeaway/src/main/java/com/liu/controller/BuyerOrderController.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/modules.uml" />
+    <entry file="file://$PROJECT_DIR$/src/test/TwoSum1Test.java" />
+    <entry file="file://$PROJECT_DIR$/../takeaway/src/test/java/com/liu/repository/OrderDetailRepositoryTest.java" />
+    <entry file="file://$PROJECT_DIR$/../takeaway/src/test/java/com/liu/takeaway/TakeawayApplicationTests.java" />
+    <entry file="file://$PROJECT_DIR$/../takeaway/src/test/java/com/liu/LoggerTest.java" />
+    <entry file="file://$PROJECT_DIR$/../takeaway/src/test/java/com/liu/repository/OrderMainRepositoryTest.java" />
+    <entry file="file://$PROJECT_DIR$/leetcode.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TwoSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="170">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../takeaway/src/main/java/com/liu/controller/BuyerOrderController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ListNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="64" column="41" lean-forward="true" selection-start-line="64" selection-start-column="41" selection-end-line="64" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/modules.uml">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
-          <ID>MODULES</ID>
-          <OriginalElement />
-          <nodes />
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
-          <SelectedNodes />
-          <Categories />
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/TwoSum1Test.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/AddTwoNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../takeaway/src/test/java/com/liu/repository/OrderDetailRepositoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../takeaway/src/test/java/com/liu/takeaway/TakeawayApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="153">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../takeaway/src/test/java/com/liu/LoggerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Num4Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../takeaway/src/test/java/com/liu/repository/OrderMainRepositoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Num5Test1.java" />
+    <entry file="file://$PROJECT_DIR$/.idea/junitgenerator-prj-settings.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TwoSumTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -407,10 +513,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TwoSum.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/AddTwoNumbersTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="66" selection-start-line="6" selection-start-column="8" selection-end-line="15" selection-end-column="66" />
+        <state relative-caret-position="187">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Num3Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Num4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="58" column="9" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Num5Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Num5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="56" column="8" selection-start-line="56" selection-start-column="8" selection-end-line="57" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Num6Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+          <folding>
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Num6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -423,7 +588,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.17586207" />
               </list>
             </option>
           </splitter-proportions>
@@ -431,11 +596,11 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring</last-edited>
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.17586207" />
               </list>
             </option>
           </splitter-proportions>
@@ -446,7 +611,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.17586207" />
               </list>
             </option>
           </splitter-proportions>
@@ -454,11 +619,11 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>IntelliJ IDEA Community Edition IC-191.6183.87</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.50229883" />
+                <option value="0.17586207" />
               </list>
             </option>
           </splitter-proportions>
@@ -470,8 +635,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.50229883" />
-                <option value="0.6" />
+                <option value="0.17586207" />
               </list>
             </option>
           </splitter-proportions>
@@ -495,7 +659,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.50229883" />
+                <option value="0.17586207" />
               </list>
             </option>
           </splitter-proportions>

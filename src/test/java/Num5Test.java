@@ -1,7 +1,6 @@
-import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 public class Num5Test {
     Num5 no5 = new Num5();
@@ -12,6 +11,9 @@ public class Num5Test {
     String s4 = "a";
     String s5 = "eabcb";
     String s6 = "civilwartestingwhetherthatnaptionoranynartionsoconceivedandsodedicatedcanlongendureWeareqmetonagreatbattlefiemldoftzhatwarWehavecometodedicpateaportionofthatfieldasafinalrestingplaceforthosewhoheregavetheirlivesthatthatnationmightliveItisaltogetherfangandproperthatweshoulddothisButinalargersensewecannotdedicatewecannotconsecratewecannothallowthisgroundThebravelmenlivinganddeadwhostruggledherehaveconsecrateditfaraboveourpoorponwertoaddordetractTgheworldadswfilllittlenotlenorlongrememberwhatwesayherebutitcanneverforgetwhattheydidhereItisforusthelivingrathertobededicatedheretotheulnfinishedworkwhichtheywhofoughtherehavethusfarsonoblyadvancedItisratherforustobeherededicatedtothegreattdafskremainingbeforeusthatfromthesehonoreddeadwetakeincreaseddevotiontothatcauseforwhichtheygavethelastpfullmeasureofdevotionthatweherehighlyresolvethatthesedeadshallnothavediedinvainthatthisnationunsderGodshallhaveanewbirthoffreedomandthatgovernmentofthepeoplebythepeopleforthepeopleshallnotperishfromtheearth";
+    String s7 = "ac";
+    String s8 = "abcda";
+    String s9 = "abacab";
 
     @Test
     public void longestPalindrome() {
@@ -38,7 +40,10 @@ public class Num5Test {
 //        assertEquals("bb", no5.longestPalindrome1(s3));
 //        assertEquals("", no5.longestPalindrome1(s2));
 //        assertEquals("a", no5.longestPalindrome1(s4));
-        assertEquals("bcb", no5.longestPalindrome1(s5));
+//        assertEquals("bcb", no5.longestPalindrome1(s5));
+//        assertEquals("a", no5.longestPalindrome1(s7));
 //        System.out.println(no5.longestPalindrome1(s6));
+//        assertEquals("a", no5.longestPalindrome1(s8));
+        assertEquals("bacab", no5.longestPalindrome1(s9));
     }
 }
