@@ -46,12 +46,16 @@ public class Num8 {
         StringBuffer num = new StringBuffer();
 
         while(n < str.length()){
-            if((str.charAt(n)=='+' || str.charAt(n)=='-') && num.charAt(0) || Character.isDigit(str.charAt(n))) {
+            if(num.toString().isEmpty() && (str.charAt(n)=='+' || str.charAt(n)=='-' || Character.isDigit(str.charAt(n)))) {
                 num.append(str.charAt(n));
                 n++;
             }
-            else if(str.charAt(n)==' ')
+            else if(num.toString().isEmpty() && str.charAt(n)==' ')
                 n++;
+            else if(!num.toString().isEmpty() && Character.isDigit(str.charAt(n))){
+                num.append(str.charAt(n));
+                n++;
+            }
             else
                 break;
         }
@@ -62,12 +66,17 @@ public class Num8 {
         if(num.toString().equals("+") || num.toString().equals("-"))
             return 0;
 
-        long a = Long.parseLong(num.toString());
-        if(a < Integer.MIN_VALUE)
-            return Integer.MIN_VALUE;
-        else if(a > Integer.MAX_VALUE)
-            return Integer.MAX_VALUE;
-        else
-            return (int)a;
+        int a = 0;
+        try{
+            a = Integer.parseInt(num.toString());
+        }catch (Exception e){
+            if(num.charAt(0) == '-')
+                return Integer.MIN_VALUE;
+            else
+                return Integer.MAX_VALUE;
+        }
+        return a;
     }
 }
+
+//+或-后连续跟着数字，即一旦num不为空，只有数字可以加入num
