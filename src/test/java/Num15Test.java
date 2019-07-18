@@ -1,6 +1,7 @@
 import org.junit.Test;
 
 import static org.junit.Assert.*;
+import main.java.Num15;
 
 public class Num15Test {
     int[] nums1 = {-1, 0, 1, 2, -1, -4};
