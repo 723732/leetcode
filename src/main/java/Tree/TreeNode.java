@@ -8,12 +8,5 @@ public class TreeNode {
         val = x;
     }
 
-    public void setLeft(TreeNode left){
-        this.left = left;
-    }
-
-    public void setRight(TreeNode right){
-        this.right = right;
-    }
 
 }
