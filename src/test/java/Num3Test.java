@@ -1,6 +1,5 @@
+import before.Num3;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class Num3Test {
 

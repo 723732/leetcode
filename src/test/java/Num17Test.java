@@ -1,16 +1,11 @@
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
-import static org.junit.Assert.*;
-import main.java.Num17;
+import before.Num17;
 
 public class Num17Test {
     String a = "23";
 
-    Num17 no17 = new main.java.Num17();
+    Num17 no17 = new Num17();
 
     @Test
     public void letterCombinations() {

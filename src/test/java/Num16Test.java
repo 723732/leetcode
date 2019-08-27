@@ -1,7 +1,7 @@
 import org.junit.Test;
 
 import static org.junit.Assert.*;
-import main.java.Num16;
+import before.Num16;
 
 public class Num16Test {
 
